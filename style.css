@@ -124,3 +124,16 @@ body {
         font-size: 16px; /* Prevents zoom on iOS */
     }
 }
+@media (max-width: 320px) {
+    .container {
+        padding: 12px 15px;
+    }
+    
+    .container h1 {
+        font-size: 24px;
+    }
+    
+    #imgBox {
+        max-width: 160px;
+    }
+}
